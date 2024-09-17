@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - BeatKit</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="main">
+        <video autoplay muted loop width="100%" height="100%" src="./WhatsApp Video 2024-09-17 at 15.26.06_15090325.mp4" class="bg-vid"></video>
+
+
+        <!-- This is a Navigation bar -->
+        
+        
+    <div class="main-nav">
+
+        <div class="n-logo">
+            <img width="150px" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/Logo-kit.png" alt="beatkitlogo">
+        </div>
+    
+        <div class="n-menu">
+        <ul>
+        <li><a href="http://127.0.0.1:5500/index.html" target="_blank">Home</a></li>
+        <li class="dropdown">
+            <a href="http://127.0.0.1:5500/Aboutus.html" target="_blank">About Us <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown-content">
+            <a href="#">Artist</a>
+        </div>
+        </li>
+        <li class="dropdown">
+            <a href="http://127.0.0.1:5500/Tours.html" target="_blank">Tour <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown-content">
+            <a href="#">Single Tour</a>
+        </div>
+        </li>
+        <li class="dropdown">
+            <a href="http://127.0.0.1:5500/Album.html" target="_blank">Album <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown-content">
+            <a href="#">Single Album</a>
+        </div>
+        </li>
+        <li><a href="http://127.0.0.1:5500/Contact.html" target="_blank">Contact</a></li>
+
+        <!-- <li class="dropdown">
+            <a href="#">News <i class="bi bi-caret-down-fill"></i></a> 
+        <div class="dropdown-content">
+            <a href="#">Archiv Blog</a>
+            <a href="#">Single post</a>
+        </div>
+        </li> -->
+            
+        </ul>
+        </div>
+
+        <div class="sidebarparent">
+        <ul class="sidebar">
+            <li onclick="hidesidebarparent()"><a href="#"><i class="bi bi-x-lg"></i></a></li>
+        <li><a href="http://127.0.0.1:5500/index.html" target="_blank">Home</a></li>
+        <li class="dropdown">
+            <a href="http://127.0.0.1:5500/Aboutus.html" target="_blank">About Us <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown-content">
+            <a href="#">Artist</a>
+        </div>
+        </li>
+        <li class="dropdown">
+            <a href="http://127.0.0.1:5500/Tours.html" target="_blank">Tour <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown-content">
+            <a href="#">Single Tour</a>
+        </div>
+        </li>
+        <li class="dropdown">
+            <a href="http://127.0.0.1:5500/Album.html" target="_blank">Album <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown-content">
+            <a href="#">Single Album</a>
+        </div>
+        </li>
+        <li><a href="http://127.0.0.1:5500/Contact.html" target="_blank">Contact</a></li>
+
+        <!-- <li class="dropdown">
+            <a href="#">News <i class="bi bi-caret-down-fill"></i></a> 
+        <div class="dropdown-content">
+            <a href="#">Archiv Blog</a>
+            <a href="#">Single post</a>
+        </div>
+        </li> -->
+            
+        </ul>
+        </div>
+        
+
+
+        <div class="icon-list">
+              <li  onclick="showsidebarparent()"><a href="#"><i class="bi bi-list"></i></a></li>
+        </div>
+
+        
+        
+
+        <div class="n-icon">
+        <div class="youtube"><i class="bi bi-youtube"></i></div>
+        <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+        <div class="spotify"><i class="bi bi-spotify"></i></div>
+        <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+        <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+        </div>
+
+
+    </div>
+        
+
+    <!-- This is a main disply -->
+
+    <div class="main-disply">
+    <div class="d-left">
+        <p>Welcome</p>
+        <h1>Let's Play the Beat and Dance</h1>
+        <p>A new album has been released this month with a new style</p>
+        <p>Available on</p>
+    <div class="d-icon">
+        <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+        <div class="spotify"><i class="bi bi-spotify"></i></div>
+        <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+        <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+    </div>
+        <button class="btn1">Discover more</button>
+    </div>
+    <div class="d-right">
+        <img src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/header_1-1-e1618242166141.png" alt="">
+    </div>
+    </div>
+    
+    </div>
+
+
+    <!-- This is a tours class  -->
+    
+
+    <div class="Tours">
+        <h3>Tours & Events</h3>
+        <div class="Events">
+            <div class="e-card">
+                <h2>Jakarta Music Fest</h2>
+                <p>21 April 2021, Jakarta</p>
+                <button class="btn2">Learn more <i class="bi bi-arrow-right"></i></button>
+                <hr>
+            </div>
+
+
+            <div class="e-card">
+                <h2>Bali Electro Music</h2>
+                <p>26 April 2021, Bali</p>
+                <button class="btn2">Learn more <i class="bi bi-arrow-right"></i></button>
+                <hr>
+            </div>
+
+
+            <div class="e-card">
+                <h2>Sanur Party Dance</h2>
+                <p>30 April 2021, Bali</p>
+                <button class="btn2">Learn more <i class="bi bi-arrow-right"></i></button>
+                <hr>
+            </div>
+
+            <div class="e-img">
+                <div class="i-img">
+                    <img width="350px" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/girl-dj-style-minimal-art-modern-design--e1617998179562.jpg" alt="">
+                </div>
+                <div class="i-text">
+                    <h2>Our Journey</h2>
+                    <p>A new album, 3 Maret 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- This is a Our journy class -->
+
+    <div class="our-journey">
+        <p>Our Journey</p>
+        <h2>Discover</h2>
+        <div class="o-img">
+            <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/dj-playing-in-nightclub-1536x1024.jpg" alt="">
+        </div>
+    </div>
+    
+
+    <!-- This is a about us class -->
+    
+    <div class="about-us">
+        <div class="au-left">
+            <p>About Us</p>
+            <h2>We Are Professional Talent Musician</h2>
+        </div>
+        <div class="au-right">
+            <p>
+                Non convallis commodo ullamcorper venenatis maecenas. Molestie vestibulum primis conubia convallis fermentum blandit urna. Inceptos eu nec et non litora blandit elit. Dapibus erat eu libero. Ipsum turpis vestibulum cras.
+            </p>
+            <p>
+                Posuere maximus pretium nascetur molestie hac arcu consectetuer. Ornare imperdiet facilisis lacinia pharetra mauris dictum. Sed per sodales dapibus efficitur montes. Pede arcu potenti pretium.
+            </p>
+        </div>
+    </div>
+    
+
+
+    <!-- This is a Trick class -->
+    <div class="parent-trick">
+    <div class="trick">
+        <div class="tk-left">
+            <div class="tk-left-img">
+                <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/albums-1-e1618241695288.png" alt="">
+            </div>
+            <div class="tk-list">
+                <h2>Track List</h2>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> From Start</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> In Your Heart</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> Logical Mind</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> Do You Love Me?</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> The Beat Of Your Heart</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> Last Journey</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+                <div class="tk-lt">
+                    <p><i class="bi bi-play-fill"></i> Other Ways</p>
+                    <p>04:12</p>
+                    <div class="tk-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tk-right">
+            <div class="new-release">
+                <p>New Release</p>
+                <h2>"Our Jurney"</h2>
+            </div>
+            
+            <div class="available-on">
+                <p>Available on</p>
+                <div class="able-icon">
+                    <div class="cloude"><i class="bi bi-cloud-fill"></i></div>
+                    <div class="spotify"><i class="bi bi-spotify"></i></div>
+                    <div class="music"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="bar-line"><i class="bi bi-bar-chart-line-fill"></i></div>
+                </div>
+            </div>
+
+            <div class="about-album">
+                <p>About album</p>
+                <p>Felis ligula taciti class lobortis efficitur eleifend lorem. Natoque ultricies sodales dapibus. Letius eros nullam libero hac dictumst. Massa ridiculus lacinia aptent aenean orci facilisi. Pellentesque facilisi posuere dolor luctus nulla euismod. Libero tellus phasellus pharetra venenatis ac gravida nisl. Ut tempus enim proin vehicula leo metus.</p>
+            </div>
+
+            <div class="detail-album">
+                <p>Detail album</p>
+
+                <div class="da da-artist">
+                    <i class="bi bi-mic-fill"></i>
+                    <div class="h3-p">
+                    <h3>Artist <br> </h3>
+                     <p>BeatKit Ft. Rockerman</p>
+                   </div>
+                </div>
+
+
+                <div class="da da-release">
+                    <i class="bi bi-clipboard"></i>
+                    <div class="h3-p">
+                    <h3>Release</h3>
+                    <p>7 April 2021</p>
+                    </div>
+                </div>
+
+                <div class="da da-lable">
+                    <i class="bi bi-bookmark"></i>
+                    <div class="h3-p">
+                    <h3>Label</h3>
+                    <p>QuickenWorks Record</p>
+                    </div>
+                </div>
+
+                <div class="da da-11song">
+                    <i class="bi bi-music-note-beamed"></i>
+                    <div class="h3-p">
+                    <h3>Track</h3>
+                    <p>11 Song</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+    <!-- This is a live concert class -->
+    
+    <div class="live-concert">
+
+        <div class="lc-head">
+            <p>Live Concert</p>
+            <h2>Upcoming Shows</h2>
+        </div>
+
+        <div class="lc-buy-ticket">
+          
+
+        <div class="buy-card">
+            <div class="buy-date">
+                <i class="bi bi-clipboard"></i>
+                 <div class="dt-date">
+                    <h3>21</h3>
+                    <p>April</p>
+                 </div>
+                 <h3>Jakarta Music Fest</h3>
+            </div>
+            
+            <div class="buy-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div class="buy-name">
+                    <h2>Jakarta</h2>
+                    <p>07:00 pm</p>
+                </div>
+                <button class="buy1">Buy Ticket</button>
+                </div>
+
+        </div>
+
+
+            
+            
+         <div class="buy-card">   
+            <div class="buy-date">
+                <i class="bi bi-clipboard"></i>
+                 <div class="dt-date">
+                    <h3>26</h3>
+                    <p>April</p>
+                 </div>
+                 <h3>Bali Electro Music</h3>
+            </div>
+
+
+            <div class="buy-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div class="buy-name">
+                    <h2>Bali</h2>
+                    <p>07:00 pm</p>
+                </div>
+                <button class="buy1">Buy Ticket</button>
+                </div>
+
+        </div>
+
+
+
+        <div class="buy-card">
+            <div class="buy-date">
+                <i class="bi bi-clipboard"></i>
+                 <div class="dt-date">
+                    <h3>30</h3>
+                    <p>April</p>
+                 </div>
+                 <h3>Sanur Party Dance</h3>
+            </div>
+
+
+             <div class="buy-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div class="buy-name">
+                    <h2>Bali</h2>
+                    <p>07:00 pm</p>
+                </div>
+                <button class="sold buy1">Sold Out</button>
+                </div>
+        </div>
+
+
+        <div class="buy-card">
+            <div class="buy-date">
+                <i class="bi bi-clipboard"></i>
+                 <div class="dt-date">
+                    <h3>03</h3>
+                    <p>may</p>
+                 </div>
+                 <h3>Makassar Fest</h3>
+            </div>
+
+
+              <div class="buy-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div class="buy-name">
+                    <h2>Sulsel</h2>
+                    <p>07:00 pm</p>
+                </div>
+                <button class="buy1">Buy Ticket</button>
+                </div>
+            </div>
+            
+            
+        <div class="buy-card">
+            <div class="buy-date">
+                <i class="bi bi-clipboard"></i>
+                 <div class="dt-date">
+                    <h3>10</h3>
+                    <p>April</p>
+                 </div>
+                 <h3>Medan Electro Dance</h3>
+            </div>
+
+
+            <div class="buy-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div class="buy-name">
+                    <h2>Medan</h2>
+                    <p>07:00 pm</p>
+                </div>
+                <button class="buy1">Buy Ticket</button>
+                </div>
+        </div>
+
+
+            
+        <div class="buy-card">
+            <div class="buy-date">
+                <i class="bi bi-clipboard"></i>
+                 <div class="dt-date">
+                    <h3>21</h3>
+                    <p>April</p>
+                 </div>
+                 <h3>Jakarta Music Fest</h3>
+            </div>
+
+
+            <div class="buy-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div class="buy-name">
+                    <h2>Jakarta</h2>
+                    <p>07:00 pm</p>
+                </div>
+                <button class="buy1">Buy Ticket</button>
+                </div>
+        </div>
+
+            </div>
+            
+        </div>
+        
+    
+
+        <!-- This is a img show class .html -->
+
+        <div class="img-show">
+          <div class="is-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/cinematic-portrait-of-handsome-young-man-in-neon-lighted-room-stylish-musician-e1617957907374.jpg" alt=""> </div>
+          <div class="is-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/young-caucasian-musician-playing-guitar-in-neon-light-on-purple-background-e1617957939296.jpg" alt=""> </div>
+          <div class="is-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/portrait-of-young-stylish-man-in-hat-suit-and-tie-that-stands-in-neon-lights-in-the-studio-e1617958076401.jpg" alt=""> </div>
+          <div class="is-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/couple-of-hipsters-under-red-and-blue-lights-e1617958031420.jpg" alt=""> </div>
+          <div class="is-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/rapper-in-red-hoodie-and-sunglasses-in-studio-e1617957990493.jpg" alt=""> </div>
+          <div class="is-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/rapper-in-gold-jewelry-poses-in-illuminated-cube-e1617957858495.jpg" alt=""> </div>
+        </div>
+
+
+        
+        
+
+        <!-- This is a News & updates-->
+        
+        <div class="news">
+            <p>Latest</p>
+            <div class="n-update">
+                <h2>News & Update</h2>
+                <button class="news1">
+                    <i class="bi bi-arrow-right"></i>
+                    More News
+                </button>
+                
+            </div>
+            <hr>
+            
+
+            <div class="n-cards">
+                <div class="n-card n-card1">
+                    <img width="100%px" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/white-on-white-and-marble-on-marble--1536x1025.jpg" alt="">
+                    <div class="n-card1-1">
+                    <h3>“Marble” Album Ready on Online Music Platform</h3>
+                    <p>April 7, 2021 / No Comments</p>
+                    </div>
+                </div>
+                <div class="n-card n-card2">
+                    <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/disco-1536x1024.jpg" alt="">
+                    <div class="n-card1-1">
+                    <h3>Single “Pink Love” brings the 80’s Style</h3>
+                    <p>April 7, 2021 / No Comments</p>
+                    </div>
+                </div>
+                <div class="n-card n-card3">
+                    <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/dj-in-nightclub-1536x1025.jpg" alt="">
+                    <div class="n-card1-1">
+                    <h3>Online Performance Featuring With Rich Brian</h3>
+                    <p>April 7, 2021 / No Comments</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- This is a sponser calss -->
+        
+        <div class="sponser">
+            <div class="spn-head">
+            <h6>Sponsor</h6>
+            <h4>Thanks for Supported Us</h4>
+            </div>
+            <div class="spn-imgs">
+              <div class="spn-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/spora-logo_white.png" alt=""> </div>
+              <div class="spn-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/logo-avontur.png" alt=""> </div>
+              <div class="spn-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/logo-bikepro_.png" alt=""> </div>
+              <div class="spn-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/Logo-Carbon.png" alt=""> </div>
+              <div class="spn-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/Logo-eunoia.png" alt=""> </div>
+              <div class="spn-img">  <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/Logo-Monstra.png" alt=""> </div>
+            </div>
+        </div>
+        
+        
+
+        <!-- This is a footer calss in html -->
+        
+        <footer>
+            <div class="foot">
+                <div class="ft-left">
+                    <div class="ft-card">
+                        <div class="ft-card-img">
+                            <img width="100%" src="https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/Logo-kit.png" alt="">
+                            <p>Template Kit for Beat Music or DJ. Futuristic Design and full of light.  You can easily start and build your content writing service website with this elementor template kit.</p>
+                            <div class="ft-icon">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ft-right">
+                    <div class="ft-company">
+                        <h3>About Us</h3>
+                        <hr>
+                        <div class="ft-links">
+                            <ul>
+                                <li>About us</li>
+                                <li>Company</li>
+                                <li>Sponsorship</li>
+                                <li>Tours & Events</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                    <div class="ft-company">
+                        <h3>Support</h3>
+                        <hr>
+                        <div class="ft-links">
+                            <ul>
+                                <li>Artist Management</li>
+                                <li>Contact Us</li>
+                                <li>Community</li>
+                                <li>Fans</li>
+                                <li>Merchandise</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="ft-foot">
+                <hr>
+                <p>© 2021 Beatkit is Proudly Powered by MoxCreative</p>
+            </div>
+            
+        </footer>
+        
+        
+
+        <!-- This is a script in html -->
+
+        <script>
+            function showsidebarparent(){
+                const sidebarparent = document.querySelector('.sidebarparent')
+                sidebarparent.style.display = 'flex'
+            }
+
+
+            function hidesidebarparent(){
+                const sidebarparent = document.querySelector('.sidebarparent')
+                sidebarparent.style.display = 'none'
+            }
+
+
+        </script>
+        
+        
+        
+        
+    </body>
+</html>

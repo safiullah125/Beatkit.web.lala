@@ -1,0 +1,1378 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: sans-serif;
+    overflow-x: hidden !important;
+    background-color: #0E0837;
+    color: white;
+    
+  
+} 
+
+body h1,h2,h3{
+
+ font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+/* This is a main class */
+
+.main{
+    width: 100%;
+    height: 98vh;
+    position: relative;
+}
+
+
+/* this is a Navigation Bar in css */
+
+.main-nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center; 
+    z-index: 1000;
+    box-shadow:2px 2px 2px #0E0837;
+    border-bottom: 1px solid  #0E0837;
+}
+
+
+/* This is sidebar navbar in html*/
+
+
+.sidebarparent{
+    display:none ;
+    position: fixed;
+    top: 4.5rem;
+    right: 0;
+    height: 80vh;
+    width: 290px;
+    z-index: 999;
+    background-color: rgba(211, 211, 211, 0.185);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px 2px lightgray;
+}
+
+.sidebarparent ul{
+    list-style-type: none;
+}
+
+.sidebarparent ul li{
+    margin: 1.8rem 0;
+}
+
+.sidebarparent ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 1rem;
+    display: block;
+}
+
+.sidebarparent ul li a:hover{
+    color: blue;
+    background-color: lightgray;
+}
+
+/* this is a sidebar end  */
+
+.n-logo,
+.n-menu ul,
+.n-icon{
+    display: flex;
+    
+}
+
+.n-icon{
+    color: white;
+    gap: 1.5rem;
+    font-size: 22px;
+}
+
+
+
+.n-menu ul{
+    gap: 2rem;
+    list-style-type: none;
+    padding: 0.5rem;
+    
+}
+
+.n-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.n-menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 1rem;
+    display: block;
+}
+
+.n-menu ul li a:hover{
+    color: blue;
+    background-color: lightgray;
+}
+
+    
+    
+    
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    transition: all 0.4s;
+
+}
+
+.dropdown .dropdown-content a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.icon-list{
+    color: white;
+    font-size: 45px;
+    display:none ;
+    
+}
+
+.icon-list li{
+    list-style-type: none;
+}
+
+.icon-list li a{
+    color: white;
+}
+
+/* This side bar class in css */
+
+
+
+
+
+/* This is a main disply */
+
+.main-disply{
+    width: 80%;
+    margin:1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+.d-left h1{
+    font-size: 60px;
+}
+
+
+.d-left p:nth-child(1){
+    color: #F1005C;
+    font-size: 20px;
+}
+
+.d-left p:nth-child(4){
+    color: #F1005C;
+    font-size: 20px;
+}
+
+.d-left .btn1{
+    padding: 1rem 2rem;
+    align-self: flex-start;
+    background-color: #3867F3;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.d-right{
+    width: 50%;
+    margin: auto;
+}
+
+.d-right img{
+    scale: 1.3;
+}
+
+
+.d-icon{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+/* This is a Tours & Events */
+
+.Tours{
+    width: 80%;
+     margin: auto;
+       background-color: #110726 ;
+       padding: 1rem;
+       padding-right: 0;
+       padding-bottom: 0;
+
+}
+
+.Tours h3{
+    color: #F1005C;
+    font-size: 30px;
+}
+
+.Events{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.e-card{
+    background-color: transparent;
+    padding: 0.4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-right: 1px solid lightblue;
+    align-self: center;
+}
+
+.e-card:nth-child(3){
+    border-right: none;
+}
+
+.e-card h2{
+    font-size: 30px;
+}
+
+.e-card .btn2{
+    padding: 0.5rem 0;
+    border: none;
+    background-color: transparent;
+    letter-spacing: 1px;
+    align-self: flex-start;
+    color: white;
+    font-size: 20px;
+}
+
+.e-card hr{
+    width: 80px;
+    margin-top: -0.3rem;
+}
+
+.e-card .btn2:hover{
+    color: #F1005C;
+}
+
+
+.e-img{
+    overflow: hidden;
+    width: 35%;
+    margin-top: -10rem;
+    z-index: 5;
+}
+
+.e-img .i-img{
+    overflow: hidden;
+}
+
+
+.e-img .i-img img{
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.e-img .i-text{
+    background-color: #BE245A;
+    padding:0.6rem 1rem;
+    margin-top: -5px;
+    text-align: center;
+    
+    
+}
+
+.i-text h2{
+    font-size: 30px;
+    margin: 0.4rem 0;
+    
+}
+
+
+
+.e-img .i-img img:hover{
+    scale: 1.1;
+    rotate: 5deg;
+
+}
+
+/* This is a our journey css */
+
+.our-journey{
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.our-journey p{
+    color: #F1005C;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.our-journey h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.our-journey .o-img{
+    width: 80%;
+}
+
+
+/* This is a parent trick in css */
+
+.parent-trick{
+    width: 100%;
+}
+
+.trick{
+    width: 80%;
+    margin:3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tk-left{
+    width: 50%;
+    background-color: transparent;
+
+}
+
+.tk-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    
+  
+}
+
+
+.tk-left-img{
+    margin: 0.7rem 0;
+    width: 90%;
+}
+
+.tk-list h2{
+    color: #BE245A;
+    font-size: 25px;
+}
+
+
+.tk-lt{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7rem 0;
+    background:linear-gradient(to right, #230639, #4B063F);
+    font-size: 16px;
+
+}
+
+.tk-icon{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+
+.tk-right{
+    width: 50%;
+    background-color: #0B1757;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.tk-right .new-release p{
+    color: #F1005C;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.tk-right .new-release h2{
+    font-size: 50px;
+    margin:0.5rem 0;
+    text-align: center;
+}
+
+
+.tk-right .available-on p{
+    font-size: 18px;
+    color: #F1005C;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.tk-right .available-on .able-icon{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    font-size: 20px;
+    flex-wrap: wrap
+}
+
+.tk-right .about-album p:nth-child(1){
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #F1005C;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.tk-right .about-album p:nth-child(2){
+    font-size: 18px;
+    margin: 1rem 0;
+    line-height: 1.6rem;
+}
+
+.tk-right .detail-album p:nth-child(1){
+    font-size: 20px;
+    color: #F1005C;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.tk-right .detail-album{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.tk-right .detail-album .da{
+    display: flex;
+    justify-content:flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tk-right .detail-album i{
+    background:linear-gradient(120deg, #1C3FC4, #9D0382);
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+
+
+/* This is a Background-video */
+
+.bg-vid{
+    object-fit: cover;
+    position: absolute;
+    z-index: -5;
+}
+
+
+/* This is a about us class css */
+
+.about-us{
+    width: 80%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.au-left{
+    width: 40%;
+}
+
+.au-left p{
+    color: #F1005C;
+    font-size: 20px;
+    margin: 1rem 0;
+}
+
+.au-left h2{
+    font-size: 40px;
+}
+
+.au-right{
+    width: 50%;
+}
+
+.au-right p{
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    font-size: 18px;
+    margin: 0.9rem 0;
+}
+
+
+/* This is a live concert class css */
+
+
+.live-concert{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.live-concert .lc-head{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.live-concert .lc-head p{
+    color: #F1005C;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.live-concert .lc-head h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+
+.lc-buy-ticket{
+    width: 80%;
+    margin:1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.lc-buy-ticket .buy-card{
+    width: 100%;
+    display: flex;
+    background:linear-gradient(to right, #1D0639, #4D0640)
+    
+}
+
+.lc-buy-ticket .buy-date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: #230639;
+    padding: 1.3rem 2.2rem;
+} 
+
+.buy-date i{
+    font-size: 20px;
+    background-color: #BE245A;
+    padding: 0.7rem;
+}
+
+
+.buy-date .dt-date h3{
+    font-size: 30px;
+}
+
+.buy-date h3{
+    font-size: 25px;
+}
+
+.lc-buy-ticket .buy-location{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    gap: 2rem;
+    padding: 1.3rem 2.2rem;
+}
+
+.buy-location i{
+    font-size: 20px;
+    background-color: #BE245A;
+    padding: 0.7rem;
+}
+
+.buy-location .buy-name h2{
+    font-size: 40px;
+}
+
+.buy-location .buy1{
+    padding: 0.6rem 1.2rem;
+    background-color: #3867F3;
+    border: none;
+    color: white;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.buy-location .sold{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+/* this is a img show class in css  */
+
+.img-show{
+    width: 100%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-img{
+    width: 16.66%;
+    transition: all 0.3s;
+  
+}
+
+.is-img:hover{
+    scale: 1.3;
+}
+
+
+
+
+/* This is a news class css */
+
+.news{
+    width: 80%;
+    margin: 2rem  auto;
+
+}
+.news p{
+    color: #F1005C;
+    font-size: 20px;
+}
+
+.n-update{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.n-update h2{
+    font-size: 45px;
+}
+
+.n-update .news1{
+    padding: 0.4rem 1.4rem;
+    background-color: #3867F3;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.news hr{
+    margin: 0.4rem 0;
+    border-color: #64075A;
+}
+
+.n-cards{
+    width:100%;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.n-card{
+    width: 31.6%;
+    background-color: #110726;
+   
+}
+
+.n-card1-1{
+padding: 0.9rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+
+.n-card p{
+    padding: 0.3rem;
+    color: #F1005C;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* This is a Sponser class css */
+
+.sponser{
+    width: 80%;
+    margin: auto;
+    padding: 1rem 3rem;
+}
+
+.spn-head{
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.spn-head h6{
+    font-size: 30px;
+    color: #BE245A;
+}
+
+.spn-head h4{
+    font-size: 40px;
+}
+
+.spn-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.spn-img{
+    width: 15%;
+}
+
+
+/* This is a footer class css */
+
+footer{
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: auto;
+    background-image: url("https://elements-resized.envatousercontent.com/elements-cover-images/680be59b-16e0-4935-81ec-c14b0c0de87c?w=1370&cf_fit=scale-down&q=85&format=auto&s=6fc8134e971162a59962815705eb228ae97f534c91395649df0da2cdff5a972b");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foot{
+    width: 80%;
+    margin: 7rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ft-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-card{
+    width: 60%;
+    border: 13px solid  #F1005C;
+    box-shadow: 1px 1px 18px 4px #F1005C;
+    padding: 1.5rem 2.5rem;
+    
+    
+}
+
+.ft-card p{
+    padding: 1rem 3rem ;
+    margin-right: -10rem;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+
+}
+
+.ft-icon{
+    bottom: 1.5rem;
+    font-size: 25px;
+    display: flex;
+    gap: 1rem;
+}
+
+.ft-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-company{
+    width: 50%;
+    background-color: transparent;
+    padding: 2rem;
+}
+
+.ft-company h4{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.ft-company hr{
+    border: 1px solid #9B0483;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.ft-links ul{
+    list-style-type: none;
+    margin: 1.8rem 0;
+}
+
+
+
+.ft-links ul li{
+    margin: 1rem 0;
+}
+
+.ft-foot{
+    width: 80%;
+    margin:2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    text-align: center;
+}
+
+.ft-foot hr{
+    border:0.4px  solid #9B0483;
+}
+
+.ft-foot p{
+    font-size: 16px;
+}
+
+
+/* This is a img show class media queries */
+
+@media (max-width:770px){
+    .img-show{
+        flex-direction: column;
+        
+        
+    }
+
+    .is-img{
+        width: 100%;
+        margin: -3rem 0;
+        
+    }
+    
+}
+
+
+
+/* This isa a footer media queries */
+
+@media (max-width:1100px){
+    .foot{
+        width: 95%;
+    }
+
+
+    .ft-card p{
+        width: 100%;
+        padding: 0.1rem 0.2rem ;
+        margin-right: 10rem;
+        line-height: normal;
+        margin: 1.5rem 0;
+}
+
+    
+}
+
+@media (max-width:970px){
+    .ft-card{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:770px){
+    .foot{
+        flex-direction: column;
+    }
+
+    .ft-left,
+    .ft-right{
+        width: 90%;
+    }
+
+    .ft-company{
+        text-align: center;
+        padding: 0.1rem;
+    }
+    
+    
+    
+}
+
+@media (max-width:230px){
+    .ft-icon{
+    bottom: 1.5rem;
+    font-size: 20px;
+    gap: 0.3rem;
+}
+
+.ft-card{
+    width: 80%;
+    padding: 0.3rem 0.2rem;
+    
+    
+}
+
+.ft-right{
+    flex-direction: column;
+}
+
+}
+
+
+/* This is a sponser class media queries */
+
+@media (max-width:1100px){
+    .sponser{
+        width: 95%;
+    }
+
+}
+
+@media (max-widht:770px){
+    .spn-head h2{
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .spn-img{
+        width: 18%;
+    }
+
+}
+
+@media (max-width:380px){
+    .spn-head h4{
+        font-size: 20px;
+    }
+}
+
+
+
+/* This is a news class media queries */
+
+@media (max-width:1170px){
+    .news{
+        width: 90%;
+    }
+
+    .n-card{
+        width: 30%;
+    }
+}
+
+@media (max-width:760px){
+    .n-card{
+        width: 100%;
+    }
+
+    .n-update{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:380px){
+    .news h2{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* This is a live concert class media queries */
+
+@media (max-width:1100px){
+    .lc-buy-ticket{
+        width: 95%;
+    }
+}
+
+@media (max-width:930px){
+    .buy-date{
+        padding: 0.4rem 1.5rem;
+    }
+
+    .buy-location{
+        padding: 0.4rem 1.5rem;
+    }
+    .buy-location .buy-name h2{
+    font-size: 30px;
+}
+}
+
+@media (max-width:770px){
+    .buy-card{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .buy-date i{
+        font-size: 17px;
+        background-color: #BE245A;
+        padding: 0.4rem;
+    }
+    
+    .buy-location i{
+        font-size: 17px;
+        background-color: #BE245A;
+        padding: 0.4rem;
+    }
+    
+    .buy-location .buy1{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .live-concert .lc-head h2{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:380px){
+
+    .buy-location .buy-name h2{
+    font-size: 13px;
+}
+    
+    .buy-date h3{
+        font-size: 13px;
+
+    }
+    .buy-date .dt-date h3{
+        font-size: 13px;
+    }
+
+    .lc-buy-ticket .buy-date{
+        gap: 1px;
+        justify-content: center;
+         padding: 0.3rem 0.5rem;
+    }
+
+    .buy-card{
+        justify-content: center;
+    }
+
+
+
+    
+
+    .lc-buy-ticket .buy-location{
+        gap: 1px;
+        justify-content: center;
+         padding: 0.3rem 0.5rem;
+    }
+    .lc-buy-ticket .buy1{
+        padding: 0.5rem 0.5rem;
+    }
+    
+    
+}
+
+/* This is a trick class media queries */
+
+
+@media (max-width:1150px){
+    .trick{
+        width: 95%;
+    }
+}
+
+@media (max-width:750px){
+    .trick{
+        flex-direction: column;
+    }
+
+    .tk-left{
+        width: 100%;
+    }
+    
+    .tk-right{
+        width: 90%;
+        text-align: center;
+        padding: 0.1rem;
+    }
+}
+
+@media (max-width:380px){
+    .tk-right .new-release h2{
+        font-size: 20px;
+    }
+}
+
+
+/* This is a about us class media queries */
+
+@media (max-width:1100px){
+    .about-us{
+        width: 95%;
+    }
+
+    .au-left{
+        width: 50%;
+    }
+
+    .au-right{
+        width: 50%;
+    }
+}
+
+@media (max-width:750px){
+    .about-us{
+        flex-direction: column;
+    }
+
+
+    .au-left{
+        width: 80%;
+    }
+
+    .au-right{
+        width: 80%;
+    }
+    .au-left h2{
+        font-size: 30px;
+    }
+
+    
+    
+}
+
+@media (max-width:380px){
+    .au-left h2{
+        font-size: 14px;
+    }
+
+
+    .au-left p{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:210px){}
+
+/* This is a our journey class media */
+
+@media (max-width:380px){
+    .our-journey h2{
+        font-size: 20px;
+    }
+    .our-journey p{
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* This  is a tours media queries  */
+
+@media (max-width:1250px){
+    .Tours{
+        width: 95%;
+        
+    }
+    .Tours h3:nth-child(1){
+        text-align: center;
+    }
+}
+
+@media (max-width:470px){
+    .main{
+        width: 100%;
+    }
+
+    .d-right img{
+        width: 80%;
+    }
+}
+
+@media (max-width:780px){
+    .Events{
+        flex-direction: column;
+        
+    }
+
+    .e-card {
+        border-right: 0;
+        width: 90%;
+
+    }
+
+    .e-img{
+        margin-top: 10rem;
+        width: 90%;
+    
+    }
+
+    
+    
+}
+
+@media (max-width:380px){
+    .Events h2{
+        font-size:20px ;
+
+    }
+}
+
+
+/* This is a main disply media queries */
+
+@media (max-width:1200px){
+    .main-disply{
+        width: 90%;
+    }
+
+  
+}
+
+@media (max-width:1000px){
+    .d-right img{
+        scale: 1.1;
+    }
+}
+
+@media (max-width:780px){
+
+    
+    
+    .main-disply{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      .d-left,
+    .d-right{
+        width: 90%;
+    }
+
+    .d-right img{
+        scale: 1;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width:380px){
+    .main-disply{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .d-left,
+    .d-right{
+        width: 80%;
+    }
+
+    .d-left h1{
+        font-size: 20px;
+        
+    }
+    
+}
+
+@media (max-width:210px){
+    .d-left .btn1{
+        padding: 0.2rem 0.2rem;
+    }
+
+    .d-icon{
+        gap: 0.5rem;
+    }
+    
+}
+
+    /* this is a Navigation bar media queries */
+
+@media (max-width:1100px){
+    .n-menu ul{
+        display: none;
+    }
+
+    .icon-list{
+        display: block;
+    }
+}
+    
+@media (max-width:770px){
+    .main-nav{
+        justify-content: space-around;
+    }
+
+    .n-logo img{
+        width: 180px;
+    }
+        
+    .n-icon{
+        display: none;
+    }
+
+    .icon-list{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:210px){
+    .n-logo img{
+        width: 100px;
+    }
+}
+
+
+/* This is a body media querie */
+
+@media (max-width:380px){
+    body{
+        width: 100%;
+    }
+}
+    
